@@ -97,7 +97,7 @@ def test_data(outpath, centre=[165, 255], p1=[200, 250], p2=[350, 250],
         cv2.line(frame,
                 tuple(rotated_1.astype(int)),
                 tuple(rotated_2.astype(int)),
-                (0, 0, 255), thickness)  # cv2 is BGR
+                (255, 0, 0), thickness)  # cv2 is BGR
         # pivot
         cv2.circle(frame, tuple(centre.astype(int)), 4, (0, 0, 0), -1)
 

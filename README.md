@@ -9,15 +9,11 @@ The project is organized as follows:
 ```
 video-processing-project
 ├── data
-│   ├── input          # Directory for input .mp4 files
-│   │   └── README.md  # Placeholder for input .mp4 files
-│   └── output         # Directory for output .mp4 files
-│       └── README.md  # Placeholder for output .mp4 files
-├── src
-│   ├── video_processing.ipynb  # Jupyter notebook for video processing
-│   ├── video_processing_tools.py # Utility functions for video processing
-│   └── utils
-│       └── __init__.py         # Marks the utils directory as a Python package
+│   ├── (Model 2 initially rotating, slow motion and edge feature enhanced)
+│
+│── video_processing.ipynb  # Jupyter notebook for video processing
+├── video_processing_tools.py # Utility functions for video processing
+
 ├── requirements.txt             # Lists project dependencies
 ├── README.md                    # Project documentation
 └── .gitignore                   # Specifies files to ignore by Git
@@ -26,9 +22,10 @@ video-processing-project
 ## Setup Instructions
 1. **Clone the Repository**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/Riaan-jansen/Probe-Video-Processing.git
    cd video-processing-project
    ```
+
 
 2. **Install Dependencies**
    Ensure you have Python installed, then install the required libraries:
@@ -40,7 +37,7 @@ video-processing-project
    Place your input `.mp4` files in the `data/input` directory.
 
 4. **Run the Analysis**
-   Open the Jupyter notebook `src/video_processing.ipynb` and run the cells to process the videos.
+   Open the Jupyter notebook `video_processing.ipynb` and run the cells to process the videos.
 
 5. **Output Data**
    The processed output videos will be saved in the `data/output` directory.
